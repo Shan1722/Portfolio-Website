@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5f0603cde2.js" crossorigin="anonymous"></script>
+    <!-- <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+      </style> -->
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/Logo.PNG" class = "logo">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <h1>CIAO !</h1>
+        <h2>I'm Shanskar<br>Dubey</h2>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/buy-1.jpg" alt="">
+
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa totam, molestias sit, porro, laudantium nostrum dolores doloremque vitae similique voluptate odit nihil. Nemo rem dignissimos iure nostrum culpa omnis fugit molestiae dolorem quis quia cum alias laudantium, minima veniam ullam obcaecati assumenda fuga adipisci magni sint enim. Eius, facilis odit?</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Data Structures And Algorithm</span><br>Knowledge about various data structures</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Data Structures And Algorithm</span><br>Knowledge about various data structures</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Data Structures And Algorithm</span><br>Knowledge about various data structures</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------services-------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                   <h2>Web Design</h2>
+                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam debitis recusandae sapiente id ipsam sunt. Ullam, a dolorem maxime magnam suscipit blanditiis consequuntur unde odit libero id, tempore error rem.</p>
+                    <a href="">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam debitis recusandae sapiente id ipsam sunt. Ullam, a dolorem maxime magnam suscipit blanditiis consequuntur unde odit libero id, tempore error rem.</p>
+                     <a href="">Learn more</a>
+                 </div>
+
+                 <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>DSA</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam debitis recusandae sapiente id ipsam sunt. Ullam, a dolorem maxime magnam suscipit blanditiis consequuntur unde odit libero id, tempore error rem.</p>
+                     <a href="">Learn more</a>
+                 </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- --------------portfolio-------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/WebD.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Auction Website</h3>
+                        <p>The web app lets you connect to buyers and sellers for different antiques.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/GameD.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Dungeon Master Game</h3>
+                        <p>This is a basic game made using js, more levels can be added later as per developers convenience</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/sort.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Sorting Algorithm Analyser</h3>
+                        <p>This is a basic web app used to analyse various sorting algorithms.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- --------------contact-------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa fa-envelope" aria-hidden="true"></i>shanskar8001@gmail.com</p>
+                    <p><i class="fa fa-phone-square" aria-hidden="true"></i>+91-9343228992</p>
+                    <div class="social-icons">
+                    <a href=""><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+</body>
+</html>
